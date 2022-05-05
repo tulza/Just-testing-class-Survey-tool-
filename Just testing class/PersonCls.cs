@@ -31,7 +31,7 @@ namespace Just_testing_class
 
             totalSurvey++;
             //ID generation
-            surveyID = DateTime.Now.ToString(String.Format("{0} - {1:D2} ", DateTime.Now.ToString("yy/mm/dd"), SurveyNum(totalSurvey)));
+            surveyID = DateTime.Now.ToString(String.Format("{0} - {1:D2} ", DateTime.Now.ToString("yy/MM/dd"), SurveyNum(totalSurvey)));
         }
 
         //Citizen Info Reading
@@ -50,6 +50,11 @@ namespace Just_testing_class
         //Member Method <!>
         private static int SurveyNum(int TotalSurvey){ 
             return TotalSurvey;
+        }
+
+        private static void UpdateDataBase()
+        {
+            
         }
     }
 }
