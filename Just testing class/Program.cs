@@ -77,7 +77,7 @@ namespace Just_testing_class
 
             /*
              
-                Note: Unreadable because i suck at making it look easy to read + 0 comment(s)
+                Note: Unreadable code because i suck at making it look easy to read + 0 comment(s)
 
              */
             Console.Clear();
